@@ -11,12 +11,12 @@ Scrapy |版本| 文档
 有问题? 我们来帮你!
 
 * 尝试用 :doc:`FAQ <faq>` -- 使用指令获得常见问题的回答.
-* 查看具体信息? 尝试用 :ref:`genindex` 或者 :ref:`modindex`.
-* 使用 `StackOverflow using the scrapy tag`_搜索或提问问题.
-* 使用 `Scrapy subreddit`_搜索或提问问题.
-* 在Google论坛提问`scrapy-users mailing list`_.
-* 在 `#scrapy IRC channel`_提问问题,
-* 反应 Scrapy的BUG到`issue tracker`_.
+* 查看具体信息? 尝试用  :ref:`genindex`  或者  :ref:`modindex` .
+* 使用 `StackOverflow using the scrapy tag`_ 搜索或提问问题.
+* 使用 `Scrapy subreddit`_ 搜索或提问问题.
+* 在Google论坛提问  `scrapy-users mailing list`_ .
+* 在 `#scrapy IRC channel`_ 提问问题,
+* 反应 Scrapy的BUG到 `issue tracker`_ .
 
 .. _scrapy-users mailing list: https://groups.google.com/forum/#!forum/scrapy-users
 .. _Scrapy subreddit: https://www.reddit.com/r/scrapy/
