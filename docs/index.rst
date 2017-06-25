@@ -10,13 +10,13 @@ Scrapy |版本| 文档
 
 有问题? 我们来帮你!
 
-* Try the :doc:`FAQ <faq>` -- it's got answers to some common questions.
-* Looking for specific information? Try the :ref:`genindex` or :ref:`modindex`.
-* Ask or search questions in `StackOverflow using the scrapy tag`_.
-* Ask or search questions in the `Scrapy subreddit`_.
-* Search for questions on the archives of the `scrapy-users mailing list`_.
-* Ask a question in the `#scrapy IRC channel`_,
-* Report bugs with Scrapy in our `issue tracker`_.
+* 尝试用 :doc:`FAQ <faq>` -- 使用指令获得常见问题的回答.
+* 查看具体信息? 尝试用 :ref:`genindex` 或者 :ref:`modindex`.
+* 使用 `StackOverflow using the scrapy tag`_搜索或提问问题.
+* 使用 `Scrapy subreddit`_搜索或提问问题.
+* 在Google论坛提问`scrapy-users mailing list`_.
+* 在 `#scrapy IRC channel`_提问问题,
+* 反应 Scrapy的BUG到`issue tracker`_.
 
 .. _scrapy-users mailing list: https://groups.google.com/forum/#!forum/scrapy-users
 .. _Scrapy subreddit: https://www.reddit.com/r/scrapy/
@@ -25,7 +25,7 @@ Scrapy |版本| 文档
 .. _issue tracker: https://github.com/scrapy/scrapy/issues
 
 
-First steps
+第一步
 ===========
 
 .. toctree::
@@ -51,11 +51,11 @@ First steps
 
 .. _section-basics:
 
-Basic concepts
+基本概念
 ==============
 
 .. toctree::
-   :caption: Basic concepts
+   :caption: 基本概念
    :hidden:
 
    topics/commands
@@ -73,47 +73,59 @@ Basic concepts
 
 
 :doc:`topics/commands`
-    Learn about the command-line tool used to manage your Scrapy project.
+    学习使用命令行工具来管理您的Scrapy脚本.
+    Learn about the command-line tool used to manage your Scrapy project.
 
 :doc:`topics/spiders`
-    Write the rules to crawl your websites.
+    写一些规则来爬取您的网站.
+    Write the rules to crawl your websites.
 
 :doc:`topics/selectors`
-    Extract the data from web pages using XPath.
+    使用XPath从web页面中提取数据.
+    Extract the data from web pages using XPath.
 
 :doc:`topics/shell`
-    Test your extraction code in an interactive environment.
+    在交互环境中测试您的代码.
+    Test your extraction code in an interactive environment.
 
 :doc:`topics/items`
-    Define the data you want to scrape.
+    定义你想要抓取的数据.
+    Define the data you want to scrape.
 
 :doc:`topics/loaders`
-    Populate your items with the extracted data.
+    用提取的数据填入您的Item.
+    Populate your items with the extracted data.
 
 :doc:`topics/item-pipeline`
+    用管道处理和存储您的数据.
     Post-process and store your scraped data.
 
 :doc:`topics/feed-exports`
+    使用不同的格式和存储来输出您的抓取的数据.
     Output your scraped data using different formats and storages.
 
 :doc:`topics/request-response`
+    理解用于表示HTTP请求和响应的类.
     Understand the classes used to represent HTTP requests and responses.
 
 :doc:`topics/link-extractors`
+    使用从页面中提取链接的类
     Convenient classes to extract links to follow from pages.
 
 :doc:`topics/settings`
-    Learn how to configure Scrapy and see all :ref:`available settings <topics-settings-ref>`.
+    学习如何配置Scrapy,全部内容 :ref:`可用设置 <topics-settings-ref>`.
+    Learn how to configure Scrapy and see all :ref:`available settings <topics-settings-ref>`.
 
 :doc:`topics/exceptions`
+    了解所有可用的异常及其含义.
     See all available exceptions and their meaning.
 
 
-Built-in services
+内建功能
 =================
 
 .. toctree::
-   :caption: Built-in services
+   :caption: 内建功能
    :hidden:
 
    topics/logging
@@ -238,12 +250,12 @@ Extending Scrapy
     Quickly export your scraped items to a file (XML, CSV, etc).
 
 
-All the rest
+剩余部分
 ============
 
 .. toctree::
-   :caption: All the rest
-   :hidden:
+   :caption: 剩余部分
+   :hidden:
 
    news
    contributing
