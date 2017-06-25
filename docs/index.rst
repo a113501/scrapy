@@ -29,8 +29,8 @@ Scrapy |版本| 文档
 ===========
 
 .. toctree::
-   :caption: First steps
-   :hidden:
+   :caption: 第一步
+   :hidden:
 
    intro/overview
    intro/install
@@ -38,16 +38,20 @@ Scrapy |版本| 文档
    intro/examples
 
 :doc:`intro/overview`
-    Understand what Scrapy is and how it can help you.
+    理解Scrapy的概念并了解它的作用.
+    Understand what Scrapy is and how it can help you.
 
 :doc:`intro/install`
-    Get Scrapy installed on your computer.
+    将Scrapy安装到您的电脑.
+    Get Scrapy installed on your computer.
 
 :doc:`intro/tutorial`
-    Write your first Scrapy project.
+    编写您的第一个Scrapy项目.
+    Write your first Scrapy project.
 
 :doc:`intro/examples`
-    Learn more by playing with a pre-made Scrapy project.
+    使用预制的Scrapy项目了解更多信息.
+   Learn more by playing with a pre-made Scrapy project.
 
 .. _section-basics:
 
@@ -135,26 +139,31 @@ Scrapy |版本| 文档
    topics/webservice
 
 :doc:`topics/logging`
-    Learn how to use Python's builtin logging on Scrapy.
+    了解如何在Scrapy上使用Python的内置日志功能.
+    Learn how to use Python's builtin logging on Scrapy.
 
 :doc:`topics/stats`
+    收集有关您的抓取工具的统计信息.
     Collect statistics about your scraping crawler.
 
 :doc:`topics/email`
-    Send email notifications when certain events occur.
+    发生特定事件时发送电子邮件通知您.
+    Send email notifications when certain events occur.
 
 :doc:`topics/telnetconsole`
-    Inspect a running crawler using a built-in Python console.
+    使用内置的Python控制台检查正在运行的爬虫程序.
+   Inspect a running crawler using a built-in Python console.
 
 :doc:`topics/webservice`
-    Monitor and control a crawler using a web service.
+    使用Web服务监视和控制爬虫程序.
+    Monitor and control a crawler using a web service.
 
 
-Solving specific problems
+解决具体问题
 =========================
 
 .. toctree::
-   :caption: Solving specific problems
+   :caption: 解决具体问题
    :hidden:
 
    faq
@@ -172,16 +181,20 @@ Solving specific problems
    topics/jobs
 
 :doc:`faq`
-    Get answers to most frequently asked questions.
+    获得常见问题的答案.
+    Get answers to most frequently asked questions.
 
 :doc:`topics/debug`
+    了解如何调试Scrapy爬虫的常见问题.
     Learn how to debug common problems of your scrapy spider.
 
 :doc:`topics/contracts`
+    学习如何使用contract来测试您的spider.
     Learn how to use contracts for testing your spiders.
 
 :doc:`topics/practices`
-    Get familiar with some Scrapy common practices.
+    熟悉Scrapy的一些惯例做法.
+    Get familiar with some Scrapy common practices.
 
 :doc:`topics/broad-crawls`
     Tune Scrapy for crawling a lot domains in parallel.
@@ -244,6 +257,7 @@ Extending Scrapy
     Use it on extensions and middlewares to extend Scrapy functionality
 
 :doc:`topics/signals`
+    
     See all available signals and how to work with them.
 
 :doc:`topics/exporters`
@@ -262,10 +276,13 @@ Extending Scrapy
    versioning
 
 :doc:`news`
-    See what has changed in recent Scrapy versions.
+    看看在最新版本的Scrapy中有什么变化.
+    See what has changed in recent Scrapy versions.
 
 :doc:`contributing`
+    了解如何为Scrapy项目做出贡献.
     Learn how to contribute to the Scrapy project.
 
 :doc:`versioning`
-    Understand Scrapy versioning and API stability.
+    了解Scrapy版本和API稳定性.
+    Understand Scrapy versioning and API stability.
